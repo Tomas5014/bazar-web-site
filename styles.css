@@ -1,0 +1,41 @@
+body{
+    min-height: 100vh;
+    margin: 0px;
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    margin: 0px;
+    color: #F9FAF8;
+    align-items: center;
+    padding: 12px;
+    justify-content: space-around;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8
+}
+
+.header ul{
+    display: flex;
+    gap: 18px;
+    list-style: none;
+    margin: 0px;
+    padding:0px;
+}
+
+.links a{
+    text-decoration: none;
+    font-size: 18px;
+    /* color: #F9FAF8; */
+    color: #E5E7EB
+}
+
