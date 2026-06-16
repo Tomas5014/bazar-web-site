@@ -4,6 +4,11 @@ body{
     font-family: Roboto, sans-serif;
 }
 
+*{
+    box-sizing: border-box;
+
+}
+
 /* Header */
 
 .header {
@@ -14,6 +19,7 @@ body{
     align-items: center;
     padding: 12px;
     justify-content: space-around;
+    height: 5vh;
 }
 
 .header a {
@@ -48,6 +54,7 @@ body{
     background-color: #1F2937;
     padding: 7vh 25vh;
     gap: 7vh;
+    height: 45vh;
 }
 
 .one-section h1 {
@@ -62,10 +69,10 @@ body{
 }
 
 .one-section img{
-    inline-size: 70vh;
     flex: 1;
 }
 .one-section .left {
     flex-wrap: wrap;
-    flex: 1;
+    flex: 3;
 }
+
