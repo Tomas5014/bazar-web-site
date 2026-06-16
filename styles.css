@@ -4,6 +4,8 @@ body{
     font-family: Roboto, sans-serif;
 }
 
+/* Header */
+
 .header {
     display: flex;
     background-color: #1F2937;
@@ -39,3 +41,31 @@ body{
     color: #E5E7EB
 }
 
+/* Seção 1 */
+
+.one-section {
+    display: flex;
+    background-color: #1F2937;
+    padding: 7vh 25vh;
+    gap: 7vh;
+}
+
+.one-section h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.one-section p {
+    color:#E5E7EB;
+    font-size: 18px;
+}
+
+.one-section img{
+    inline-size: 70vh;
+    flex: 1;
+}
+.one-section .left {
+    flex-wrap: wrap;
+    flex: 1;
+}
