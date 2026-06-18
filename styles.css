@@ -157,3 +157,48 @@ body{
     font-size: 32px;
     margin-top: 0px;
 }
+
+/* Seção 4: */
+
+.four-section {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#squere-login{
+    background-color: #3882F6;
+    display: flex;
+    padding: 3vh 12vh;
+    gap: 15vh;
+    color:#F9FAF8;
+    border-radius: 15px;
+}
+
+#squere-login h1 {
+    font-size: 36px;
+    margin-bottom: 0px;
+}
+
+#squere-login p {
+    padding: 0px;
+    margin-top: 5px;
+    font-size: 22px;
+}
+
+#squere-login button {
+    background-color: #3882F6;
+    border: #F9FAF8 solid 3px;
+    border-radius: 10px;
+    align-self: center;
+    color:#F9FAF8;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 1vh;
+}
+
+#squere-login button:hover {
+    background-color: #F9FAF8;
+    color: #3882F6;
+}
