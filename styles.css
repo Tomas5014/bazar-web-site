@@ -82,10 +82,11 @@ body{
     flex-direction: column;
     align-items: center;
     font-size: 22px;
-    margin: 3vh 15vh;
+    padding: 3vh 15vh;
     text-align: center;
     font-weight: bold;
     justify-content: center;
+    height: 50vh;
 }
 
 .card img{
@@ -126,3 +127,33 @@ body{
     text-align: center;
 }
 
+/* Seção 3: */
+
+.tree-section {
+    background-color: #E5E7EB;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1F2937;
+}
+.tree-section .tree-container {
+    display: flex;
+    flex-direction: column;
+}
+.tree-section p#frase{
+    width: 90vh;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 42px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.tree-section p#assinatura{
+    width: 100vh;
+    text-align: end;
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 0px;
+}
